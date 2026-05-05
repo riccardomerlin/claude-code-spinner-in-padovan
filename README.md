@@ -64,7 +64,7 @@ Par chi no xe da ste bande, tradussion in italian come se deve:
 
 El resto te lo trovi... tra nonni e bisnonni de Padova e provincia.
 
-## Instaeasion
+## Instaeassion
 
 ### In te on colpo solo
 
@@ -93,7 +93,7 @@ Dopo, sara e verzi Claude Code e te si a piombo.
 - **Linux/macOS**: `curl` + `jq`
 - **Windows**: PowerShell 5.1 o pi novo (de serie su Win 10/11)
 
-### Instaeasion a man
+### Instaeassion a man
 
 Verzi `~/.claude/settings.json` e zontaghe queo che te cati so `spinner-verbs.json`:
 
@@ -132,7 +132,7 @@ osterie de provincia, mejo xe.
 
 MIT. Fa queo che te vol. Ma no star fare el bauco.
 
-## Ringrasiamenti
+## Ringrassiamenti
 
 - [`tabman83`](https://github.com/tabman83) par l'idea originale e el pacheto irlandese
 - Noni e none de Padova e provincia
