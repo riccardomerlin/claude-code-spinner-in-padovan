@@ -43,7 +43,7 @@ mkdir -p "${SETTINGS_DIR}"
 
 apply_overwrite() {
   cp "${TMP_VERBS}" "${SETTINGS_FILE}"
-  c_green "Verbi piantài (overwrite). Destrighete a riaviare Claude Code."
+  c_green "Verbi piantà (overwrite). Destrigate a riaviare Claude Code."
 }
 
 apply_merge() {
@@ -53,7 +53,7 @@ apply_merge() {
     exit 1
   fi
   cp "${TMP_MERGED}" "${SETTINGS_FILE}"
-  c_green "Verbi ingrumài (merge). Destrighete a riaviare Claude Code."
+  c_green "Verbi ingrumà (merge). Destrigate a riaviare Claude Code."
 }
 
 if [[ -f "${SETTINGS_FILE}" ]]; then

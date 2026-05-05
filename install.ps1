@@ -51,7 +51,7 @@ function Write-SettingsJson($obj) {
 
 function Apply-Overwrite {
     Write-SettingsJson $verbsObj
-    Write-Ok "Verbi piantài (overwrite). Destrighete a riaviare Claude Code."
+    Write-Ok "Verbi piantà (overwrite). Destrigate a riaviare Claude Code."
 }
 
 function Apply-Merge {
@@ -63,7 +63,7 @@ function Apply-Merge {
         $existing | Add-Member -NotePropertyName 'spinnerVerbs' -NotePropertyValue $verbsObj.spinnerVerbs
     }
     Write-SettingsJson $existing
-    Write-Ok "Verbi ingrumài (merge). Destrighete a riaviare Claude Code."
+    Write-Ok "Verbi ingrumà (merge). Destrigate a riaviare Claude Code."
 }
 
 if (Test-Path $SettingsFile) {
